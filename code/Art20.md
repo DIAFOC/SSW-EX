@@ -18,7 +18,7 @@ date: "2024"
 
     La capacidad de la tecnologia de revertir una situacion asi es una imposibilidad evidente.
 
-    El agua a sobrevivido mas que culquier forma de vida conocida, resulta pues extraño pensar, que en menos de 40 años en el futuro
+    El agua a sobrevivido mas que culaquier forma de vida conocida, resulta pues extraño pensar, que en menos de 40 años en el futuro
     todos los seres vivos en el planeta podrian llegar a prescindir de ella 
 
     Cuida el awa. Porque todos merecemos awa 
