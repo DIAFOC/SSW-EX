@@ -5,23 +5,25 @@
 }
 
 body {
-  background-color: #0d0d0d; /* Darker background for contrast */
+  background-color: #f0f0f0; 
   margin: 0 auto;
   padding: 1rem;
   max-width: 800px;
   min-height: 100vh;
-  border: medium solid rgb(0, 102, 204); /* Blue border */
+  border: 2px solid rgba(0, 102, 204, 0.5); 
+  border-radius: 10px; 
   text-align: center;
-  font-family: system-ui, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
 a {
-  color: rgb(0, 153, 255); /* Blue link color */
-  transition: all 0.3s ease-out;
+  color: rgb(0, 153, 255); 
+  transition: color 0.3s ease-out, transform 0.2s; 
   text-decoration: none;
 
   &:hover {
-    color: rgb(255, 255, 59); /* Keep hover color as is */
+    color: rgb(255, 255, 59); 
+    transform: scale(1.05); 
   }
 }
 
@@ -30,42 +32,47 @@ h1,
 h2,
 h3,
 hr {
-  margin: 1rem auto; /* Reduced margin for horizontal layout */
-  width: auto; /* Allow width to adjust */
-  color: rgb(0, 153, 255); /* Blue text color */
+  margin: 1rem auto; 
+  width: auto; 
+  color: rgb(0, 102, 204); 
 }
 
 img {
   display: block;
   margin: 0 auto;
+  border-radius: 8px; 
 }
 
 p,
 li {
   text-align: left;
-  color: white; /* Keep paragraph and list item text white */
+  color: #333; 
 }
 
 .menu {
   width: 100%;
   max-width: 480px;
   margin: 0 auto;
-  border: thin solid rgb(0, 102, 204); /* Blue border for menu */
-  display: flex; /* Use flexbox for horizontal layout */
-  justify-content: space-between; /* Space items evenly */
-  align-items: center; /* Center items vertically */
-  padding: 1rem; /* Add padding for better spacing */
+  border: 1px solid rgba(0, 102, 204, 0.5); 
+  border-radius: 10px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 1rem; 
+  background-color: rgba(255, 255, 255, 0.8); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .menu ul {
   margin: 0;
-  padding: 0; /* Remove padding for ul */
-  display: flex; /* Flexbox for horizontal list */
-  justify-content: space-between; /* Space items evenly */
-  width: 100%; /* Full width for ul */
+  padding: 0; 
+  display: flex; 
+  justify-content: space-between; 
+  width: 100%; 
 }
 
 .menu li {
   list-style: none;
-  margin: 0 1rem; /* Add margin between list items */
+  margin: 0 1rem; 
+  font-weight: bold; 
 }
